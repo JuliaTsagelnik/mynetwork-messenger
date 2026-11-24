@@ -1,0 +1,7 @@
+> aws s3api create-bucket --bucket messenger-data --region eu-central-1
+{
+    "Location": "http://messenger-data.s3.amazonaws.com/"
+}
+> aws s3 cp users_export.csv s3://messenger-data/
+upload: .\users_export.csv to s3://messenger-data/users_export.csv
+> aws s3api put-object-acl --bucket messenger-data --key users_export.csv --acl private

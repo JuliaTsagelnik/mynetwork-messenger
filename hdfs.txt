@@ -1,0 +1,1 @@
+FSCK started by root from /172.18.0.3 for path /logs/web_server_logs.txt/logs/web_server_logs.txt 2147483648 bytes, 16 block(s): OKStatus: HEALTHY
